@@ -41,6 +41,14 @@
 					route="/resume"
 				/>				
 			</b-row>
+			<page-header>
+				Meet My Bike
+			</page-header>
+			<b-row>
+				<b-col>
+					<cujo-whole />
+				</b-col>
+			</b-row>
 		</b-col>
 	</b-row>
 </template>
