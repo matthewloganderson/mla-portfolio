@@ -121,8 +121,13 @@
 			</svg>
 		</b-col>
 		<b-col class="border-left border-primary text-primary p-4 pr-5">
-			<b-row v-if="selectedPart">
-				<b-col class="text-right">
+			<b-row class="mb-3" v-if="selectedPart">
+				<b-col>
+					<h2>
+						{{ capitalize (selectedPart) }}
+					</h2>
+				</b-col>
+				<b-col cols="1" class="text-right">
 					<b-btn @click="reset()" size="sm" variant="outline-primary">
 						<fa icon="times" />
 					</b-btn>

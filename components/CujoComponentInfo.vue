@@ -6,7 +6,7 @@
 					<h5>
 						{{ item.brand }} {{ item.title }}
 					</h5>
-					<p v-if="item.description">
+					<p class="text-dark" v-if="item.description">
 						{{ item.description }}
 					</p>
 					<cujo-spec-display v-if="item.specs" :specs="item.specs" />
@@ -24,7 +24,7 @@
 							<h4>
 								{{ item.brand }} {{ item.title }}
 							</h4>
-							<p v-if="item.description">
+							<p class="text-dark" v-if="item.description">
 								{{ item.description }}
 							</p>
 							<b-link @click="toggleCollapse (`spec-collapse-${item.title}__${item.brand}__${index}`)">

@@ -47,7 +47,7 @@ export default [
 		title: 'Map of Fictional World',
 		createdOn: '2013',
 		type: 'img',
-		description: 'A map.',
+		description: 'A map created in Illustrator to illustrate the boundaries and basic topography of a fictional region.',
 		src: 'map.png',
 	},
 	{
@@ -88,7 +88,7 @@ export default [
 		title: 'QM Elite Carton Art',
 		createdOn: '2017',
 		type: 'img',
-		description: '',
+		description: 'Design for cartons of QM Elite brand gloves.',
 		src: 'carton_art.jpg'
 	},
 	{
@@ -96,7 +96,7 @@ export default [
 		title: 'QuickMedical Business Cards',
 		createdOn: '2017',
 		type: 'gallery',
-		description: '',
+		description: 'A selection of business cards available for printing at QuickMedical.',
 		src: [
 			{
 				title: 'Variant 1',
@@ -456,7 +456,7 @@ export default [
 	},
 	{
 		id: 13, 
-		title: 'Affordable Care Act Blog',
+		title: 'How does the Affordable Care Act affect me?',
 		createdOn: '2013',
 		type: 'text',
 		description: '',
@@ -465,7 +465,7 @@ export default [
 	},
 	{
 		id: 14,
-		title: 'Antibiotic Resistance Blog',
+		title: 'What is antibiotic stewardship?',
 		createdOn: '2013',
 		type: 'text',
 		description: '',
@@ -482,7 +482,7 @@ export default [
 	},
 	{
 		id: 16,
-		title: 'Assisted Living Blog',
+		title: 'Finding the Right Assisted Living Facility: Things to Know and Questions to Ask',
 		createdOn: '2013',
 		type: 'text',
 		description: '',
@@ -491,7 +491,7 @@ export default [
 	},
 	{
 		id: 17,
-		title: 'COPD Blog',
+		title: 'November is National COPD Awareness Month',
 		createdOn: '2013',
 		type: 'text',
 		description: '',
@@ -500,7 +500,7 @@ export default [
 	},
 	{
 		id: 18,
-		title: 'Nitrile Criminals Blog',
+		title: 'Four Criminals Who Should Have Worn Latex-Free, Nitrile Exam Gloves',
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -509,7 +509,7 @@ export default [
 	},
 	{
 		id: 19,
-		title: 'Halsted Blog',
+		title: 'The Strange Life of William Halsted',
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -518,7 +518,7 @@ export default [
 	},
 	{
 		id: 20,
-		title: 'Head Injury Blog',
+		title: "Football's Concussion Problem",
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -527,7 +527,7 @@ export default [
 	},
 	{
 		id: 21,
-		title: 'ACA Exchanges Blog',
+		title: "The Affordable Care Act's Health Insurance Exchanges Open for Business",
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -536,7 +536,7 @@ export default [
 	},
 	{
 		id: 22,
-		title: 'High Cholesterol Blog',
+		title: 'Cholesterol and How to Control It',
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -545,7 +545,7 @@ export default [
 	},
 	{
 		id: 23,
-		title: 'Tuskegee Study Blog',
+		title: 'A case of bad blood...',
 		createdOn: '2014',
 		type: 'text',
 		description: '',
@@ -554,7 +554,7 @@ export default [
 	},
 	{
 		id: 24,
-		title: 'PTSD Blog',
+		title: 'Veterans and PTSD: What We Should Be Doing to Help (Part 1)',
 		createdOn: '2015',
 		type: 'text',
 		description: '',
@@ -563,7 +563,7 @@ export default [
 	},
 	{
 		id: 25,
-		title: 'Surgical Site Infection Blog',
+		title: 'Preventing SSI: Perioperative Issues',
 		createdOn: '2015',
 		type: 'text',
 		description: '',
@@ -731,175 +731,175 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Account Dashboard',
 				src: 'redesign_acct_Page_01.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Order History',
 				src: 'redesign_acct_Page_02.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Order Details',
 				src: 'redesign_acct_Page_03.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Order Details - Drop Shipment',
 				src: 'redesign_acct_Page_04.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Recurring Shipment List',
 				src: 'redesign_acct_Page_05.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Recurring Shipment Details',
 				src: 'redesign_acct_Page_06.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Quick Reorder',
 				src: 'redesign_acct_Page_07.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Product Lists',
 				src: 'redesign_acct_Page_08.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Create Product List',
 				src: 'redesign_acct_Page_09.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Current Quotes',
 				src: 'redesign_acct_Page_10.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Current Quote Details',
 				src: 'redesign_acct_Page_11.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Expired Quotes List',
 				src: 'redesign_acct_Page_12.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Address Book',
 				src: 'redesign_acct_Page_13.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Shipping Address',
 				src: 'redesign_acct_Page_14.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Billing Address',
 				src: 'redesign_acct_Page_15.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Third Party Shipping Accounts List',
 				src: 'redesign_acct_Page_16.png'
 			},
 			{
 				type: 'img', 
-				description: '',
+				description: 'New Third Party Shipping Account',
 				title: 'Account',
 				src: 'redesign_acct_Page_17.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Payment Method List',
 				src: 'redesign_acct_Page_18.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Credit Card',
 				src: 'redesign_acct_Page_19.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Current Invoices List',
 				src: 'redesign_acct_Page_20.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Add Tax Exempt Certificate',
 				src: 'redesign_acct_Page_21.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Tax Exempt Upload Confirmation',
 				src: 'redesign_acct_Page_22.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Customer Account Info',
 				src: 'redesign_acct_Page_23.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Change Password',
 				src: 'redesign_acct_Page_24.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'My Salesperson',
 				src: 'redesign_acct_Page_25.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Request Negotiated Pricing',
 				src: 'redesign_acct_Page_26.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Request Product Information',
 				src: 'redesign_acct_Page_27.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Contact Sales Rep',
 				src: 'redesign_acct_Page_28.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Account Toolbar',
 				src: 'redesign_acct_Page_29.png'
 			},
 		]
@@ -914,128 +914,80 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Add to Cart Confirmation',
 				src: 'redesign_checkout_Page_01.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Account Login or Create',
 				src: 'redesign_checkout_Page_02.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Client - Shipping Address',
 				src: 'redesign_checkout_Page_03.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Client - Select Shipping Method',
 				src: 'redesign_checkout_Page_04.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_05.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_06.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_07.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
+				title: 'New Client - Billing Address',
 				src: 'redesign_checkout_Page_09.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Client - Review Order',
 				src: 'redesign_checkout_Page_10.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Order Submitted',
 				src: 'redesign_checkout_Page_11.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_12.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_13.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
+				title: 'Existing Client - Credit Card Order',
 				src: 'redesign_checkout_Page_14.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Existing Client - Purchase Order',
 				src: 'redesign_checkout_Page_15.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_16.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_17.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
+				title: 'Edit Shipping Address',
 				src: 'redesign_checkout_Page_18.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Edit Billing Address',
 				src: 'redesign_checkout_Page_19.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Edit Credit Card',
 				src: 'redesign_checkout_Page_20.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Edit Product Options',
 				src: 'redesign_checkout_Page_21.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_checkout_Page_22.png'
 			},
 		]
 	},
@@ -1049,13 +1001,13 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Post List',
 				src: 'redesign_blog_Page_1.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Post Details',
 				src: 'redesign_blog_Page_2.png'
 			},
 		]
@@ -1070,44 +1022,26 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Shipment Settings',
 				src: 'redesign_scheduled_ship_Page_1.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Billing Information - Credit Card',
 				src: 'redesign_scheduled_ship_Page_2.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Billing Information - Purchase Order',
 				src: 'redesign_scheduled_ship_Page_3.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Review New Shipment',
 				src: 'redesign_scheduled_ship_Page_4.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_scheduled_ship_Page_5.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_scheduled_ship_Page_6.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_scheduled_ship_Page_7.png'
 			},
 		]
 	},
@@ -1121,20 +1055,14 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Health Info Home',
 				src: 'redesign_hi_Page_1.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Health Info Post',
 				src: 'redesign_hi_Page_2.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_hi_Page_3.png'
 			},
 		]
 	},
@@ -1147,31 +1075,19 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Customer Service Home',
 				src: 'redesign_help_Page_1.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Customer Service Topic',
 				src: 'redesign_help_Page_2.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
-				src: 'redesign_help_Page_3.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
-				src: 'redesign_help_Page_4.png'
-			},
-			{
-				type: 'img', 
-				description: '',
-				title: 'Account',
+				title: 'Contact Customer Service',
 				src: 'redesign_help_Page_5.png'
 			},
 		]
@@ -1185,31 +1101,31 @@ export default [
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Product Category - Grid View',
 				src: 'redesign_category_index_Page_1.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Product Category - Detail View',
 				src: 'redesign_category_index_Page_2.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Product Detail Page',
 				src: 'redesign_early_product_page_Page_03.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'New Products',
 				src: 'redesign_new_products.png'
 			},
 			{
 				type: 'img', 
 				description: '',
-				title: 'Account',
+				title: 'Promotions',
 				src: 'redesign_promos.png'
 			},
 		]

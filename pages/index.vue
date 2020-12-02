@@ -39,15 +39,13 @@
 					text="See where I've been and where I'm going."
 					linkText="Click Me"
 					route="/resume"
-				/>				
-			</b-row>
-			<page-header>
-				Meet My Bike
-			</page-header>
-			<b-row>
-				<b-col>
-					<cujo-whole />
-				</b-col>
+				/>
+				<app-intro-block 
+					header="My Bike" 
+					text="Learn more about my trusty steed: a Cannondale Cujo."
+					linkText="Click Me"
+					route="/cujo"
+				/>			
 			</b-row>
 		</b-col>
 	</b-row>
