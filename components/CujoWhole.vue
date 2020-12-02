@@ -21,7 +21,7 @@
 					@mouseleave="hoveredPart = ''" 
 					:class="{'inactive-part': !hoveredPartClass.wheels}"
 					@click="chooseActivePart ('wheels')" 
-					v-show="parts.wheels" v-b-tooltip.hover title="Tires" 
+					v-show="parts.wheels"
 				/>
 				<cujo-forks 
 					@mouseover="setHoverComponent('forks')"
@@ -29,8 +29,6 @@
 					:class="{'inactive-part': !hoveredPartClass.forks}"
 					v-show="parts.forks" 
 					@click="chooseActivePart ('forks')" 
-					v-b-tooltip.hover 
-					title="Rockshox Judy Silver" 
 				/>
 				<cujo-rear-cassette 
 					@mouseover="setHoverComponent('rearCassette')"
@@ -59,8 +57,6 @@
 					:class="{'inactive-part': !hoveredPartClass.frame}"
 					@click="chooseActivePart ('frame')"
 					v-show="parts.frame" 
-					v-b-tooltip.hover 
-					title="Frame" 
 				/>
 				<cujo-sprocket-crank-connection 
 					@mouseover="setHoverComponent('crankset')"
