@@ -222,6 +222,9 @@ import ResumeCard from '@/components/ResumeCard'
 import PageHeader from '@/components/PageHeader'
 export default {
 	name: 'index',
+	head: {
+		title: 'Resume'
+	},
 	components: {
 		PageHeader,
 		ResumeCard,

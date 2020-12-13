@@ -23,12 +23,6 @@
 			</b-row>
 			<b-row> 
 				<app-intro-block 
-					header="Services" 
-					text="Let's see how we can work together."
-					linkText="Click Me"
-					route="/services"
-				/>
-				<app-intro-block 
 					header="Portfolio" 
 					text="View my work in writing, design, and web development."
 					linkText="Click Me"
@@ -55,6 +49,9 @@
 import AppIntroBlock from '@/components/AppIntroBlock'
 export default {
 	name: 'index',
+	head: {
+		title: 'Matthew L. Anderson - Home'
+	},
 	comnponents: {
 		AppIntroBlock
 	}

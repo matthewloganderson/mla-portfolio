@@ -1,6 +1,6 @@
 <template>
 	<b-row>
-		<b-col cols="12" md="8" class="border-right border-primary">
+		<b-col cols="12" lg="8" class="border border-primary p-3">
 			<svg 
 				version="1.1" 
 				xmlns="http://www.w3.org/2000/svg" 

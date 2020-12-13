@@ -68,6 +68,9 @@ import PortfolioSwatch from '@/components/PortfolioSwatch'
 import PageHeader from '@/components/PageHeader'
 export default {
 	name: 'index',
+	head: {
+		title: 'Portfolio'
+	},
 	components: {
 		PageHeader,
 		PortfolioSwatch

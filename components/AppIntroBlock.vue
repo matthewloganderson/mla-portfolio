@@ -1,5 +1,5 @@
 <template>
-	<b-col cols="12" md="6" lg="3" class="p-5 border border-primary">
+	<b-col cols="12" md="4" class="p-5 border border-primary">
 		<b-link :to="route">
 			<h2 v-text="header"></h2>
 			<p v-text="text" class="font-size-large"></p>

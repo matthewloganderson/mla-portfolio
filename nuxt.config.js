@@ -11,7 +11,15 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+	  {
+		rel: 'stylesheet',
+		href: 'https://fonts.googleapis.com/css2?family=Questrial&display=swap'
+      },
+	  {
+		rel: 'stylesheet',
+		href: 'https://fonts.googleapis.com/css2?family=Vidaloka&display=swap'
+      }
     ]
   },
 
@@ -23,17 +31,18 @@ export default {
   plugins: [
 	  {  
 		  src: '~/plugins/AsyncComputed'
-	  }
+	  },
+	  {
+        src: '~/plugins/VueGtag.js',
+        mode: 'client'
+      }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-  ],
-
+  buildModules: [],
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/bootstrap
@@ -52,9 +61,8 @@ export default {
 		}
       ]
     }],
-	'@neneos/nuxt-animate.css'
+	'@neneos/nuxt-animate.css',
   ],
-
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend: (config) => {

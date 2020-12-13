@@ -42,6 +42,9 @@ import PortfolioCode from '@/components/PortfolioCode'
 import { mapGetters } from 'vuex'
 export default {
 	name: 'Item',
+	head: {
+		title: 'Portfolio Gallery'
+	},
 	components: {
 		PortfolioGallery, PortfolioImage, PortfolioText, PortfolioEmail, PortfolioCode
 	},

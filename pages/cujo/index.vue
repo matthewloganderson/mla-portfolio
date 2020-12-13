@@ -15,7 +15,10 @@
 
 <script>
 export default {
-	name: 'index'
+	name: 'index',
+	head: {
+		title: 'My Bike - 2020 Cannondale Cujo 1'
+	}
 }
 </script>
 
