@@ -95,7 +95,7 @@ export default {
 		handleClick () {
 			this.$emit ('portfolio_swatch_clicked', this.item.id)
 			this.$store.dispatch ('setCurrentPortfolioItem', this.item.id)
-			this.$router.push ('/portfolio/item')
+			this.$router.push (`/portfolio/item?item=${this.item.id}`)
 		},
 	}
 }

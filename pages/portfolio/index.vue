@@ -14,7 +14,7 @@
 						Design & Illustration
 					</h2>
 					<b-row no-gutters>
-						<portfolio-swatch :index="index" @click="handleOverlayClick ($event)" v-for="(item, index) in portfolioItems.images" :item="item" :key="index" />
+						<portfolio-swatch :index="index" v-for="(item, index) in portfolioItems.images" :item="item" :key="index" />
 					</b-row>
 				</b-col>
 			</b-row>
@@ -24,7 +24,7 @@
 						QuickMedical Site Redesign
 					</h2>
 					<b-row no-gutters>
-						<portfolio-swatch :index="index" @click="handleOverlayClick ($event)" v-for="(item, index) in portfolioItems.redesign" :item="item" :key="index" />
+						<portfolio-swatch :index="index"  v-for="(item, index) in portfolioItems.redesign" :item="item" :key="index" />
 					</b-row>
 				</b-col>
 			</b-row>
@@ -34,7 +34,7 @@
 						Writing
 					</h2>
 					<b-row class="border-bottom border-primary" no-gutters>
-						<portfolio-swatch :index="index" @click="handleOverlayClick ($event)" v-for="(item, index) in portfolioItems.text" :item="item" :key="index" />
+						<portfolio-swatch :index="index"  v-for="(item, index) in portfolioItems.text" :item="item" :key="index" />
 					</b-row>
 				</b-col>
 			</b-row>
@@ -44,7 +44,7 @@
 						Emails
 					</h2>
 					<b-row no-gutters>
-						<portfolio-swatch :index="index" @click="handleOverlayClick ($event)" v-for="(item, index) in portfolioItems.emails" :item="item" :key="index" />
+						<portfolio-swatch :index="index"  v-for="(item, index) in portfolioItems.emails" :item="item" :key="index" />
 					</b-row>
 				</b-col>
 			</b-row>
@@ -54,7 +54,7 @@
 						Web Development
 					</h2>
 					<b-row no-gutters>
-						<portfolio-swatch :index="index" @click="handleOverlayClick ($event)" v-for="(item, index) in portfolioItems.code" :item="item" :key="index" />
+						<portfolio-swatch :index="index"  v-for="(item, index) in portfolioItems.code" :item="item" :key="index" />
 					</b-row>
 				</b-col>
 			</b-row>

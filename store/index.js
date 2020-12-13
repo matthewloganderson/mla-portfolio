@@ -19,26 +19,10 @@ export const actions = {
 	setCurrentPortfolioItem (context, item) {
 		context.commit ('setCurrentPortfolioItem', item)
 	},
-	nextItem (context) {
-		context.commit ('nextItem')
-	},
-	previousItem (context) {
-		context.commit ('previousItem')
-	}
 }
 
 export const mutations = {
 	setCurrentPortfolioItem (state, item) {
-		state.currentItem = item
+		state.currentItem = Number(item)
 	},
-	nextItem (state) {
-		if (state.currentItem + 1 <= state.portfolio.length) {
-			state.currentItem++
-		}
-	},
-	previousItem (state) {
-		if (state.currentItem - 1 > 0) {
-			state.currentItem--
-		}
-	}
 }

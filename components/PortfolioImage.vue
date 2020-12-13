@@ -3,7 +3,8 @@
 		<b-col cols="12" md="10">
 			<b-row align-h="center">
 				<b-col cols="12" :md="imgType === 'vertical' ? '6' : '9'">
-					<img :class="currentPortfolioItem.bg ? `bg-${currentPortfolioItem.bg}` : ''" class="border border-primary w-100" @load="setImgType()" :id="`${currentPortfolioItem.title}__img`" :src="imgSrc" :alt="currentPortfolioItem.title" />
+					<img v-show="imgLoaded" :class="currentPortfolioItem.bg ? `bg-${currentPortfolioItem.bg}` : ''" class="border border-primary w-100" @load="imgLoaded = true; setImgType()" :id="`${currentPortfolioItem.title}__img`" :src="imgSrc" :alt="currentPortfolioItem.title" />
+					<b-spinner type="grow" v-if="!imgLoaded" />
 				</b-col>
 				<b-col cols="12" :md="imgType === 'vertical' ? '6' : '9'" class="pt-4">
 					<h3 class="text-primary">
@@ -29,7 +30,8 @@ export default {
 	name: 'PortfolioImage',
 	data () {
 		return {
-			imgType: 'horizontal'
+			imgType: 'horizontal', 
+			imgLoaded: false,
 		}
 	},
 	computed: {

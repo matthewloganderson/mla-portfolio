@@ -39,11 +39,17 @@ import PortfolioGallery from '@/components/PortfolioGallery'
 import PortfolioText from '@/components/PortfolioText'
 import PortfolioEmail from '@/components/PortfolioEmail'
 import PortfolioCode from '@/components/PortfolioCode'
-import { mapGetters } from 'vuex'
+import { mapGetters, mapState } from 'vuex'
 export default {
 	name: 'Item',
 	head: {
 		title: 'Portfolio Gallery'
+	},
+	watch: {
+		$route: {
+			handler: 'setCurrentPortfolioItem', 
+			immediate: true
+		} 
 	},
 	components: {
 		PortfolioGallery, PortfolioImage, PortfolioText, PortfolioEmail, PortfolioCode
@@ -71,14 +77,25 @@ export default {
 			}
 			return 'portfolio-image'
 		},
-		...mapGetters (['currentPortfolioItem'])
+		...mapGetters (['currentPortfolioItem']), 
 	},
 	methods: {
 		nextPortfolioItem () {
-			this.$store.dispatch ('nextItem')
+			const nextItem = Number(this.$route.query.item) + 1
+			if (nextItem <= this.portfolioLength) {
+				this.$router.push (`/portfolio/item?item=${nextItem}`)
+			}
 		},
 		previousPortfolioItem () {
-			this.$store.dispatch ('previousItem')
+			const previousItem = Number (this.$route.query.item) - 1
+			if (previousItem > 0) {
+				this.$router.push (`/portfolio/item?item=${previousItem}`)
+			}
+		},
+		setCurrentPortfolioItem () {
+			if (this.$route.query.item) {
+				this.$store.dispatch ('setCurrentPortfolioItem', this.$route.query.item) 
+			}
 		}
 	}
 }
