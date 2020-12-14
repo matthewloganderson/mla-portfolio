@@ -4,20 +4,36 @@
 			<b-row>
 				<b-col>
 					<b-row align-v="center" class="p-4 bg-primary">
-						<b-col cols="auto">
-							<b-btn :disabled="currentPortfolioItem.id <= 1" @click="previousPortfolioItem()" size="lg" variant="primary">
-								<fa icon="arrow-alt-circle-left" />
-							</b-btn>
-						</b-col>
 						<b-col>
-							<h1 class="text-white text-center mb-0 pb-0">
-								{{ currentPortfolioItem.title }}
-							</h1>
-						</b-col>
-						<b-col cols="auto">
-							<b-btn :disabled="currentPortfolioItem.id >= portfolioLength" @click="nextPortfolioItem()" size="lg" variant="primary">
-								<fa icon="arrow-alt-circle-right" />
-							</b-btn>
+							<b-row>
+								<b-col class="d-none d-md-inline" cols="auto">
+									<b-btn :disabled="currentPortfolioItem.id <= 1" @click="previousPortfolioItem()" size="lg" variant="primary">
+										<fa icon="arrow-alt-circle-left" />
+									</b-btn>
+								</b-col>
+								<b-col>
+									<h1 class="text-white text-center mb-0 pb-0">
+										{{ currentPortfolioItem.title }}
+									</h1>
+								</b-col>
+								<b-col class="d-none d-md-inline" cols="auto">
+									<b-btn :disabled="currentPortfolioItem.id >= portfolioLength" @click="nextPortfolioItem()" size="lg" variant="primary">
+										<fa icon="arrow-alt-circle-right" />
+									</b-btn>
+								</b-col>
+							</b-row>
+							<b-row class="d-md-none mt-2">
+								<b-col cols="6" class="text-right">
+									<b-btn :disabled="currentPortfolioItem.id <= 1" @click="previousPortfolioItem()" size="lg" variant="primary">
+										<fa icon="arrow-alt-circle-left" />
+									</b-btn>
+								</b-col>
+								<b-col cols="6">
+									<b-btn :disabled="currentPortfolioItem.id >= portfolioLength" @click="nextPortfolioItem()" size="lg" variant="primary">
+										<fa icon="arrow-alt-circle-right" />
+									</b-btn>
+								</b-col>
+							</b-row>
 						</b-col>
 					</b-row>
 				</b-col>

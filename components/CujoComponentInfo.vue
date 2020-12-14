@@ -27,12 +27,16 @@
 							<p class="text-dark" v-if="item.description">
 								{{ item.description }}
 							</p>
-							<b-link @click="toggleCollapse (`spec-collapse-${item.title}__${item.brand}__${index}`)">
-								More Info
-							</b-link>
-							<b-collapse :id="`spec-collapse-${item.title}__${item.brand}__${index}`">
-								<cujo-spec-display v-if="item.specs" :specs="item.specs" />
-							</b-collapse>
+							<b-row v-if="item.specs">
+								<b-col>
+									<b-link @click="toggleCollapse (`spec-collapse-${item.title}__${item.brand}__${index}`)">
+										More Info
+									</b-link>
+									<b-collapse :id="`spec-collapse-${item.title}__${item.brand}__${index}`">
+										<cujo-spec-display v-if="item.specs" :specs="item.specs" />
+									</b-collapse>
+								</b-col>
+							</b-row>
 						</b-col>
 					</b-row>
 				</b-col>

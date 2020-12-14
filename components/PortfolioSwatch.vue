@@ -1,5 +1,5 @@
 <template>
-	<b-col cols="12" sm="6" md="4" lg="3">
+	<b-col cols="6" md="4" lg="3">
 		<b-link @click="handleClick()">
 			<b-row no-gutters>
 				<b-col v-if="backgroundUrl" @mouseover="hover = true" @mouseleave="hover = false" :class="item.bg ? `bg-${item.bg}`: ''" class="m-0 portfolio-swatch" :style="`background-image: url(${backgroundUrl}); background-size: cover; background-position: 50% 100%;`">

@@ -62,6 +62,7 @@ export default {
       ]
     }],
 	'@neneos/nuxt-animate.css',
+	'@nuxtjs/sitemap'
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

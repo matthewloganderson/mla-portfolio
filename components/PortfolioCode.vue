@@ -2,8 +2,8 @@
 	<b-row>
 		<b-col>
 			<b-row>
-				<b-col>
-					<portfolio-gallery sm="12" md="6" lg="6" xl="6" v-if="currentPortfolioItem.src.length > 1" />
+				<b-col cols="12" sm="6">
+					<portfolio-gallery cols="12" sm="12" md="12" lg="6" xl="6" v-if="currentPortfolioItem.src.length > 1" />
 					<b-img class="my-5 border border-primary" v-else fluid :src="returnImgSrc(currentPortfolioItem.src[0].src)" />
 				</b-col>
 				<b-col class="my-5">
