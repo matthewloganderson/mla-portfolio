@@ -45,7 +45,6 @@ export default {
   buildModules: [],
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
 	['nuxt-fontawesome', {
       component: 'fa', 
@@ -62,8 +61,11 @@ export default {
       ]
     }],
 	'@neneos/nuxt-animate.css',
-	'@nuxtjs/sitemap'
+	'@nuxtjs/sitemap',
   ],
+  sitemap: {
+	  hostname: 'http://www.matthewandersoncreative.com'
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend: (config) => {
