@@ -9,7 +9,6 @@ export default `
  
 <p>Assisted Living Facilities, by contrast, are generally reserved for individuals unable to live at home, but who do not require the kind of skilled, 24/7 care and oversight found in nursing homes. Assisted Living typically provides for some assistance with ADLs and chores, and about half of Assisted Living facilities provide for the care of those suffering from Alzheimer's or dementia, according to the MetLife study, and of those which do offer Alzheimer's or dementia care 61 percent charge an additional fee.</p> 
  
-<more>
  
 <p>Often, if it is the family of a person choosing whether to put the family member in a facility, the initial urge is to keep their loved one as far from a nursing home as possible. However, despite their seemingly poor reputation, there are many elderly who belong in nursing homes for the simple reason that Assisted Living cannot provide the level of medical care these individuals require.</p> 
  

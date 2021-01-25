@@ -1,9 +1,9 @@
 export default `
 <p>My maternal
-grandfather died in 2005. He lived to 72 years – 20 of which he spent in the
+grandfather died in 2005. He was 72 years old – 20 of which he spent in the
 Army. He was a combat engineer in Vietnam and Korea and a drill sergeant for a
 time. That, however, is all I know of those twenty years: barely a sentence,
-and most of that I know from my mother or grandmother.</p>
+and most of that I heard from my mother or grandmother.</p>
 
 
 <p>The only thing I

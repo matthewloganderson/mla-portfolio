@@ -102,7 +102,7 @@ larger than those which aren't. </p>
 
 
 
-<p>This becomes problematic much in the Fleming guessed in his
+<p>This becomes problematic much in the way Fleming guessed in his
 Nobel speech. Because the antibiotics are not administered in a way that
 actually kills bacteria, it only serves to bolster the existing bacteria,
 making them more difficult to destroy. From there, these resistant strains of
@@ -139,7 +139,7 @@ anyway.” </p>
 
 
 <p>The implications of drug-resistant bacteria are far
-reaching, and go beyond the inability to treat strep throat, or syphilis. If
+reaching and extend beyond the inability to treat strep throat, or syphilis. If
 antibiotics lose their effectiveness, the danger of sustaining a
 life-threatening infection from a surgical procedure could become so high as to
 prevent doctors from operating because of the danger. It could also prevent the

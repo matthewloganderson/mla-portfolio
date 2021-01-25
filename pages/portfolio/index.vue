@@ -10,7 +10,7 @@
 			</b-row>
 			<b-row class="border-bottom border-primary">
 				<b-col>
-					<h2 class="text-primary text-center p-4">
+					<h2 class="text-primary text-center p-4" id="design">
 						Design & Illustration
 					</h2>
 					<b-row no-gutters>
@@ -18,7 +18,7 @@
 					</b-row>
 				</b-col>
 			</b-row>
-			<b-row class="border-bottom border-primary">
+			<b-row class="border-bottom border-primary" id="qm_redesign">
 				<b-col>
 					<h2 class="text-primary text-center p-4">
 						QuickMedical Site Redesign
@@ -30,7 +30,7 @@
 			</b-row>
 			<b-row class="border-bottom border-primary">
 				<b-col>
-					<h2 class="text-primary text-center p-4 mt-4">
+					<h2 class="text-primary text-center p-4 mt-4" id="writing">
 						Writing
 					</h2>
 					<b-row class="border-bottom border-primary" no-gutters>
@@ -40,7 +40,7 @@
 			</b-row>
 			<b-row class="border-bottom border-primary">
 				<b-col>
-					<h2 class="text-primary text-center p-4 mt-4">
+					<h2 class="text-primary text-center p-4 mt-4" id="emails">
 						Emails
 					</h2>
 					<b-row no-gutters>
@@ -50,7 +50,7 @@
 			</b-row>
 			<b-row class="border-bottom border-primary">
 				<b-col>
-					<h2 class="text-primary text-center p-4 mt-4">
+					<h2 class="text-primary text-center p-4 mt-4" id="development">
 						Web Development
 					</h2>
 					<b-row no-gutters>

@@ -1,9 +1,9 @@
 export default `
-<p><strong>A key component of the Affordable Care Act was the establishment of Value-Based Purchasing, which  
+<p>A key component of the Affordable Care Act was the establishment of Value-Based Purchasing, which  
 rewards or penalizes facilities that receive Medicare and Medicaid payments based on certain performance  
 metrics like Prevention Quality Indicators and Patient Safety Indicators which examine readmission rates and 
  
-Healthcare-Acquired Infection rates to determine payment schedules for facilities.</strong></p>
+Healthcare-Acquired Infection (HAI) rates to determine payment schedules for facilities.</p>
 <br><p>HAIs represent nearly 10 percent of inpatient costs in the United States, and are one of the Affordable  
 Care Act's top priorities. Surgical Site Infections account for nearly 20 percent of all HAIs, and since HAI 
  

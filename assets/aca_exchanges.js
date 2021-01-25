@@ -9,8 +9,8 @@ centerpiece health insurance exchanges opened for the public Tuesday, Oct. 1. </
 issues, however. More than 2.8 million visitors to healthcare.gov, the
 federally-managed health insurance exchange, between midnight and late
 afternoon brought page-load times to a crawl. Several states had similar
-issues: California, for instance, yielded five million page views by 3 p.m.
-According to the Wall Street Journal. </p>
+issues: California, for instance, yielded five million page views by 3 p.m.,
+according to the Wall Street Journal. </p>
 
 
 
@@ -50,14 +50,14 @@ without health insurance. </p>
 
 
 <p>The exchanges are meant to offer consumers more transparency
-and affordability in their search by displaying  comparisons between exchange
+and affordability in their search by displaying comparisons between exchange
 prices and those through more traditional, larger carriers like Aetna Inc. or
 Cigna Corp. and by offering significant tax relief to many individuals who
 purchase their coverage through the exchanges. </p>
 
 
 
-<p>“You'll find more choices, more competition, and in may
+<p>“You'll find more choices, more competition, and in many
 cases, lower prices. Most uninsured Americans will find that they can get
 covered for $100 or less. And you don't have to take my word for it, go on the
 website, healthcare.gov, check it out for yourself,” Obama said. “This law
