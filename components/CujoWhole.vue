@@ -38,11 +38,11 @@
 					v-show="parts.drivetrain || parts.rearCassette" 
 				/>
 				<cujo-derailler-bottom 
-					@mouseover="setHoverComponent('derailler')"
+					@mouseover="setHoverComponent('derailleur')"
 					@mouseleave="hoveredPart = ''"
-					:class="{'inactive-part': !hoveredPartClass.derailler}"
+					:class="{'inactive-part': !hoveredPartClass.derailleur}"
 					@click="chooseActivePart ('drivetrain')"
-					v-show="parts.drivetrain || parts.derailler" 
+					v-show="parts.drivetrain || parts.derailleur" 
 				/>
 				<cujo-chain-rear 
 					@mouseover="setHoverComponent('chain')"

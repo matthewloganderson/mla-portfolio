@@ -224,7 +224,7 @@ export default {
 					]
 				},
 				{
-					name: 'derailler',
+					name: 'derailleur',
 					brand: 'Sram',
 					model: 'RD-NX-1-B1',
 					link: 'https://www.sram.com/en/sram/models/rd-nx-1-b1',
