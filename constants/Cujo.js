@@ -77,7 +77,7 @@ export default {
 						},
 						{
 							title: 'Rear Axel Spacing',
-							spec: '10x140mm'
+							spec: '10x141mm'
 						},
 						{
 							title: 'Rim Inner Width',
@@ -149,15 +149,15 @@ export default {
 				},
 				{
 					name: 'rear-hub',
-					brand: 'Shimano',
-					model: 'FH-MT200-B',
-					title: 'MT200',
-					link: 'https://bike.shimano.com/en-EU/product/component/acera-m3000/FH-MT200-B.html',
-					description: 'With CENTER LOCK disc rotor mounting, the quick release FH-MT200-B freehub offers stiffer wheel rigidity, smooth rotation, and less drag.',
+					brand: 'DT Swiss',
+					model: 'H350TCDRR32SA6682S',
+					title: '350',
+					link: 'https://www.dtswiss.com/en/components/hubs-and-rws/hubs/350-classic',
+					description: 'Whoever is looking for the most affordable high performance hubs available, should take a very close look at the 350 hub line-up. The same performance as its even higher end cousins comes with slightly less weight optimized parts to offer the same reliability at a much lower cost. Available in all standards and for any application, the 350 hub is for those who like riding the trails a little more than drooling over catalogs and specs.',
 					specs: [
 						{
 							title: 'Weight',
-							spec: '402.5 grams'
+							spec: '249 grams'
 						},
 						{
 							title: 'Axel Fixing Method',
@@ -168,29 +168,10 @@ export default {
 							spec: 'Center Lock Disc Brake'
 						},
 						{
-							title: 'Flange Diameter',
-							spec: '53.8mm'
-						},
-						{
-							title: 'Flange Distance',
-							spec: '63.4mm'
-						},
-						{
-							title: 'O.L.D',
-							spec: '141mm'
-						},
-						{
-							title: 'Offset',
-							spec: '6.65mm'
-						},
-						{
-							title: 'P.C.D',
-							spec: '45/45mm'
-						},
-						{
-							title: 'Seal',
-							spec: 'Contact'
+							title: 'Points of Engagement',
+							spec: '36'
 						}
+					
 					]
 				},
 			]
@@ -201,9 +182,9 @@ export default {
 				{
 					name: 'rear-cassette',
 					brand: 'Sram',
-					model: 'CS-PG-1210-A1',
-					title: 'SX Eagle, 11-50, 12-speed',
-					link: 'https://www.sram.com/en/sram/models/cs-pg-1210-a1',
+					model: 'XG-1275',
+					title: 'GX Eagle, 10-52, 12-speed',
+					link: 'https://www.sram.com/en/sram/models/cs-xg-1275-b1',
 					specs: [
 						{
 							title: 'Speed',
@@ -211,7 +192,7 @@ export default {
 						},
 						{
 							title: 'Gearing',
-							spec: '11-50t'
+							spec: '10-52t'
 						},
 						{
 							title: 'Color',
@@ -219,17 +200,17 @@ export default {
 						},
 						{
 							title: 'Cog Sizes',
-							spec: '11,13,15,17,19,22,25,28,32,36,42,50t'
+							spec: '10,12,14,16,18,21,24,28,32,36,42,52t'
 						}
 					]
 				},
 				{
 					name: 'derailleur',
 					brand: 'Sram',
-					model: 'RD-NX-1-B1',
-					link: 'https://www.sram.com/en/sram/models/rd-nx-1-b1',
-					title: 'NX Eagle',
-					description: `This new NX Eagle™ derailleur features the proven SRAM 1x-specific X-HORIZON™ design. The larger, 14-tooth X-SYNC™ lower pulley easily facilitates 11- to 50- and 10- to 50-tooth cassette capacity, and also adds to NX Eagle's overall smooth-pedaling feel. The Type-3 ROLLER BEARING CLUTCH™ provides quiet, consistent performance and durability.`,
+					model: 'RD-GX-1-B2',
+					link: 'https://www.sram.com/en/sram/models/rd-gx-1-b2',
+					title: 'GX Eagle',
+					description: `Riders want the derailleur to do its job shifting on command, whether under climbing load or the stage finish. The GX Eagle™ derailleur gets it done with an updated cage architecture that improves chain management. Refined to work with the new 10-52t cassettes, it’s also backwards compatible for the 10-50t versions. Giving riders choice, because that’s how it should be. Finished with the new GX Eagle™ master colorway – to compliment any cassette and chain colorway a rider wants from the Eagle™ Colorsystem. Further proof that the GX Eagle™ derailleur is there for one thing - to do the job.`,
 					specs: [
 						{
 							title: 'Cage',
@@ -245,11 +226,11 @@ export default {
 						},
 						{
 							title: 'Color',
-							spec: 'Black'
+							spec: 'Lunar'
 						},
 						{
 							title: 'Cage Material',
-							spec: 'Steel'
+							spec: 'Aluminum'
 						},
 						{
 							title: 'Pulley Bearings Material',
@@ -257,42 +238,38 @@ export default {
 						},
 						{
 							title: 'Max Tooth',
-							spec: '50'
+							spec: '52'
 						},
-						{
-							title: 'Weight',
-							spec: '339 grams'
-						}
 					]
 				},
 				{
 					name: 'crankset',
 					brand: 'Sram',
-					model: 'FC-SX-1-A1',
-					link: 'https://www.sram.com/en/sram/models/fc-sx-1-a1',
-					title: 'SX Eagle, 30T',
-					description: 'Same chain retention performance as seen in all of the higher-level Eagle drivetrain cranks.',
+					model: 'FC-GX-1-C1',
+					link: 'https://www.sram.com/en/sram/models/fc-gx-1-c1',
+					title: 'GX Eagle, 32T',
+					description: `Some riders test their limits more than others. For these riders, the GX Eagle DUB crankset allows them to go all in, every day they ride. The best aluminum crankset we make, engineered to deliver consistent performance every ride. Featuring our X-SYNC 2 tooth profile chainring for complete chain control. Each tooth's thickness is toleranced and controlled to work seamlessly with the chain's inner and outer links. DUB technology’s patented spindle design and bottom bracket provides a uniform approach to fitment, better sealing and forward and backward compatibility. Simply put, the forged aluminum GX Eagle DUB crankset is the no frills choice of riders who know.`,
 					specs: [
 						{
 							title: 'BB Spindle Interface',
-							spec: 'DUB, Power Spline',
+							spec: 'DUB',
 						},
 						{
 							title: 'Chainring Material',
-							spec: 'Steel'
+							spec: 'Aluminum'
 						},
 						{
 							title: 'Chainring Size',
-							spec: '30t'
+							spec: '32t'
 						}
 					]
 				},
 				{
 					name: 'Shifter',
 					brand: 'Sram',
-					model: 'SL-SX-1-A1',
-					title: 'SX Eagle, 12-speed',
-					link: 'https://www.sram.com/en/sram/models/sl-sx-1-a12',
+					model: 'SL-GX-1-A2',
+					title: 'GX Eagle, 12-speed',
+					link: 'https://www.sram.com/en/sram/models/sl-gx-1-a2',
 					specs: [
 						{
 							title: 'Shifter Type',
@@ -304,29 +281,29 @@ export default {
 						},
 						{
 							title: 'Color',
-							spec: 'Black'
+							spec: 'Lunar'
 						},
 						{
-							title: 'Cable Length',
-							spec: '2200mm'
+							title: 'Weight',
+							spec: '122g'
 						}
 					]
 				},
 				{
 					name: 'chain', 
 					brand: 'Sram',
-					model: 'CN-EAGL-NX-A1',
-					title: 'NX Eagle Chain',
-					link: 'https://www.sram.com/en/sram/models/cn-eagl-nx-a1',
-					description: `The basis of every Eagle drivetrain is its chain-and the NX Eagle chain is designed and manufactured using genuine SRAM's Eagle architecture, so it is fully compatible with every other component in the Eagle ecosystem. The NX Eagle chain features solid pin construction, Eagle PowerLock and smooth, efficient shifting that you can count on every time out.`,
+					model: 'CN-EAGL-GX-A1',
+					title: 'GX Eagle Chain',
+					link: 'https://www.sram.com/en/sram/models/cn-eagl-gx-a1',
+					description: `The GX Eagle chain is designed with SRAM's Eagle geometry, the GX Eagle chain features solid pin construction, Eagle PowerLock and smooth, efficient shifting that you can count on every time out.`,
 					specs: [
 						{
 							title: 'Outer Link Finish',
-							spec: 'Polished'
+							spec: 'Nickel'
 						},
 						{
 							title: 'Color',
-							spec: 'Grey',
+							spec: 'Silver',
 						},
 						{
 							title: 'Chain Connector',
@@ -342,21 +319,21 @@ export default {
 						},
 						{
 							title: 'Weight',
-							spec: '278.52 grams'
+							spec: '244 grams'
 						}
 					]
 				},
 				{
 					name: 'bottom-bracket',
 					brand: 'Sram',
-					title: 'Truvativ Power Spline',
-					model: 'BB-PS-A1',
+					title: 'DUB BSA Bottom Bracket',
+					model: 'BB-DUB-BSA-A1',
 					link: 'https://www.sram.com/en/truvativ/models/bb-ps-a1',
-					description: 'A tough bottom bracket that will go as hard as you. The PowerSpline has a heat treated chromoly 12 spline spindle to make sure it can go the distance with even the most demanding riders.',
+					description: `The new SRAM DUB bottom bracket series has a simple job-connect your crankarms and protect the smooth, long-lasting application of power to your drivetrain. To allow that singular focus, we've engineered the DUB spindle to be the one true unifying component. One oversized spindle to work across every bottom bracket standard. For better crankarm compatibility. For better protection from the elements. For longer-lasting performance. To be stronger, smoother, simpler. Now, back to the ride.`,
 					specs: [
 						{
-							title: 'Weight',
-							spec: '363 grams'
+							title: 'Cup Material',
+							spec: 'Aluminum'
 						}
 					]
 				}
