@@ -34,6 +34,11 @@ export default {
 			imgLoaded: false,
 		}
 	},
+	watch: {
+		currentPortfolioItem: {
+			handler: 'resetImgLoaded'
+		}
+	},
 	computed: {
 		...mapGetters (['currentPortfolioItem']),
 		imgSrc () {
@@ -45,6 +50,9 @@ export default {
 		},
 	},
 	methods: {
+		resetImgLoaded () {
+			this.imgLoaded = false
+		},
 		setImgType () {
 			const img = document.getElementById (`${this.currentPortfolioItem.title}__img`)
 			const dims = this.returnImgDims (img)

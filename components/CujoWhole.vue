@@ -87,11 +87,11 @@
 					v-show="parts.drivetrain || parts.crankset" 
 				/>
 				<cujo-derailler 
-					:class="{'inactive-part': !hoveredPartClass.derailler}"
-					@mouseover="setHoverComponent('derailler')"
+					:class="{'inactive-part': !hoveredPartClass.derailleur}"
+					@mouseover="setHoverComponent('derailleur')"
 					@mouseleave="hoveredPart = ''"
 					@click="chooseActivePart ('drivetrain')"
-					v-show="parts.drivetrain || parts.derailler" 
+					v-show="parts.drivetrain || parts.derailleur" 
 				/>
 				<cujo-dropper-post 
 					@mouseover="setHoverComponent('dropperPost')"
@@ -171,7 +171,7 @@ export default {
 				chain: true,
 				frame: true,
 				crankset: true,
-				derailler: true,
+				derailleur: true,
 				dropperPost: true,
 				saddle: true,
 				handlebars: true,
@@ -211,7 +211,7 @@ export default {
 				chain: true,
 				frame: true,
 				crankset: true,
-				derailler: true,
+				derailleur: true,
 				dropperPost: true,
 				saddle: true,
 				handlebars: true,
